@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="../index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <title>Gráfica en Tiempo Real con PHP y Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="tittle">
+        <h1>GRÁFICA SENSOR</h1>
+
+    </header>
+    <div class="container">
+        <div class="led">
+            <img src="./led/AMARILLO OFF.png" alt="" class="img">
+        </div>
+        <div class="led">
+            <img src="./led/AMARILLO ON.png" alt="" class="led">
+        </div>
+        <div class="led">
+
+            <img src="./led/ROJO ON.png" alt="" class="led">
+        </div>
+        <div class="led">
+            <img src="./led/ROJO OFF.png" alt="" class="led">
+        </div>
+        <div class="led">
+            <img src="./led/VERDE OFF.png" alt="" class="led">
+        </div>
+        <div class="led">
+            <img src="./led/VERDE ON.png" alt="" class="led">
+        </div>
+
+
+    </div>
+    <div class="box-graf">
+
+        <div class="cont-graf">
+            <canvas id="myChart"></canvas>
+        </div>
+
+    </div>
+    <div class="hey">
+
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
