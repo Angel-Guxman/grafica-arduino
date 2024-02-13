@@ -1,14 +1,15 @@
-.led {
-  margin-left: 20px;
-  width: 100px;
-  height: 200px;
-  margin-right: 80px;
-}
-.img {
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 20px 2px;
+#amarillo-on {
+  box-shadow: 0 0 20px 2px rgb(255, 238, 0);
   border-radius: 30px;
+}
+#rojo-on {
+  box-shadow: 0 0 20px 2px rgb(255, 0, 0);
+  border-radius: 30px;
+}
+#verde-on {
+  box-shadow: 0 0 20px 2px rgb(0, 255, 51);
+  border-radius: 30px;
+    background-color: yellow;
 }
 
 .container {
@@ -18,6 +19,8 @@
 .cont-graf {
   width: 50%;
   height: 50%;
+  background-color: rgb(236, 232, 232);
+  border-radius: 25px;
 }
 
 .box-graf {
@@ -33,5 +36,4 @@
 
 .hey {
   height: 100px;
-  background-color: rgba(201, 203, 207, 0.2);
 }
